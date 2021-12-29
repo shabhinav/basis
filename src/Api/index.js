@@ -1,7 +1,5 @@
 import axios from "axios";
 
-const bodyParameters = {};
-
 export const loginApi = (body) =>
   axios.post(`${process.env.REACT_APP_BASE_URL}/users/email`, body);
 

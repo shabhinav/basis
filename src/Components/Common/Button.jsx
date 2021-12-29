@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "@mui/material/Button";
-import DeleteIcon from "@mui/icons-material/Delete";
 
 function SimpleButton({ label, onClick }) {
   return (
